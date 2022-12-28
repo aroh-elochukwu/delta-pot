@@ -1,7 +1,5 @@
 import React from "react";
 
-
-
 import styles from "./AvailableMeals.module.css"
 import MealItem from "./MealsItem/MealItem";
 import Card from "../UI/Card";
@@ -37,10 +35,11 @@ const testMealData = [
 const AvailableMeals = () => {
   const mealsList = testMealData.map(mealItem =>  (
     <MealItem 
+      id= {mealItem.id}
       key={mealItem.id} 
       mealDescription={mealItem.description} 
       mealPrice={mealItem.price}
-       mealName={mealItem.name}
+      mealName={mealItem.name}
     />
   )); 
 

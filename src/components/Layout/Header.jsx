@@ -1,7 +1,7 @@
 import React from "react";
 import HeaderCartButton from "./HeaderCartButton";
 
-import deltaPotImage from "../../assets/delta-pot.jpg"
+import deltaPotImage from "../../assets/Nigerian_food_pic.jpg"
 import styles from "./Header.module.css";
 
 const Header = props => {
